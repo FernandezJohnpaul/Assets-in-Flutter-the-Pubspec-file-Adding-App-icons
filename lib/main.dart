@@ -10,8 +10,8 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://cdna.artstation.com/p/assets/images/images/031/190/742/large/grafit-studio-.jpg?1602861795'),
+            image: AssetImage(
+                'images/me.jpeg'),
           ),
         ),
       ),
